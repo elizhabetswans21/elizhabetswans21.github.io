@@ -1,0 +1,47 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1080px;
+	 height: 1920px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1080px;
+	 height: 1920px;
+	 z-index:1;
+} 
+
+ #join 
+{ 
+	 left: 224px; 
+	 top: 1403px; 
+	 position: absolute; 
+	 width: 633px;
+	 height: 253px;
+	 z-index:2;
+} 
+
+ #live 
+{ 
+	 left: 840px; 
+	 top: 44px; 
+	 position: absolute; 
+	 width: 46px;
+	 height: 46px;
+	 z-index:3;
+} 
